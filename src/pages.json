@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "sicoresime"
+			}
+		},
+		{
+			"path": "pages/views/mainview/index",
+			"style": {
+				"navigationBarTitleText": "sicoresime"
+			}
+			
+		},
+		{
+			"path": "pages/views/checkmain/index",
+			"style": {
+				"navigationBarTitleText": "sicoresime"
+			}
+			},
+			{
+				"path": "pages/views/checkmain/sitecheck/index",
+				"style": {
+					"navigationBarTitleText": "sicoresime"
+				}
+				}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#919293",
+		"selectedColor": "#97AF13",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/views/mainview/index",
+				"text": "首页",
+				"iconPath": "static/icons/check.png",
+				"selectedIconPath": "static/icons/check.png"
+			}, {
+				"pagePath": "pages/views/checkmain/index",
+				"text": "点检项目",
+				"iconPath": "static/icons/check.png",
+				"selectedIconPath": "static/icons/check.png"
+			},{
+				"pagePath": "pages/views/mainview/index",
+				"text": "条码比对",
+				"iconPath": "static/icons/scan.png",
+				"selectedIconPath": "static/icons/scan.png"
+			}]
+	}
+}
